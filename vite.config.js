@@ -5,6 +5,7 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
   ],
+  base: "/portfolio-latest/",
   server: {
     host: true, // or '0.0.0.0' to expose to network
     port: 5173, // or any port you prefer
